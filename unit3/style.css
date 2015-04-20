@@ -1,33 +1,51 @@
 body {
 background-color: white;
-font-family: 'Verdana', sans-serif;
+/*font-family: 'Droid Sans', sans-serif;*/
+font-family: 'Open Sans', sans-serif;
 text-align: center;
 }
 
 h1 {
-font-family: 'Numans', sans-serif;
-font-size: 26px;
+/*font-family: 'Rosario', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+font-family: 'Fanwood Text', serif;
+font-size: 32px;
+font-style: bold;
+color: #4A4344;
 }
 #navbar {
-	font-size: 14px;
+	/*font-family: 'Droid Sans', sans-serif;*/
+	/*font-family: 'Fanwood Text', serif;*/
+	font-size: 12px;
+}
+#navbar a {
+	padding-left: 6px;
+	padding-right: 6px;
+	/*color: #993333;*/
+	color: #4E8975;
 }
 a {
-	color: orange;
+	color: black;
 	text-decoration: none;
 }
 
 a:hover {
-	color: gray;
+	color: #990033;
 }
 #slogan {
-	font-style: italic;
-	font-size: 16px;
+	/*font-family: 'Rosario', sans-serif;*/
+	/*font-family: 'Droid Sans', sans-serif;*/
+	font-family: 'Fanwood Text', serif;
+	font-size: 20px;
 }
 p, ul {
-	font-size: 12px;
+	font-size: 13px;
 }
 #contact {
 	text-align: center;
+}
+#contact a {
+	color: #4E8975;
 }
 .center {
     width:200px;
