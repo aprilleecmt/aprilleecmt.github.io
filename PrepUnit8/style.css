@@ -1,0 +1,89 @@
+body {
+	background-color: #eeeeee;
+	font-family: 'Open Sans', 'Ariel', sans-serif;
+	color: #333333;
+	line-height: 1.5;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Fanwood Text', serif;
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: 'Fanwood Text', serif;
+	font-size: 21px;
+	margin-top: -3px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+header {
+	margin: 46px 0;
+}
+
+h3 {
+	font-family: 'Open Sans', 'Ariel', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	font-style: bold;
+	text-decoration: underline;
+}
+
+#wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+nav {
+	margin-bottom: 10px;
+}
+
+nav a {
+	color: #333333;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	padding: 14px 38px;
+}
+
+.column p {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: justify;
+}
+
+#columncontainer {
+	width: 728px;
+	padding-left: 176px;  /* (1080-728)/2 */
+	margin-top: 10px;
+}
+
+#column1 {
+	width: 218px;
+	float: left;
+	padding: 0px 18px 0px 0px;
+}
+
+#column2 {
+	width: 218px;
+	float: left;
+	padding: 0px 18px 0px 18px;
+}
+
+#column3 {
+	width: 218px;
+	float: left;
+	padding: 0px 0px 0px 18px;
+}
+
+footer {
+	clear: both;
+	padding-top: 24px;
+	font-size: 12px;
+
+}

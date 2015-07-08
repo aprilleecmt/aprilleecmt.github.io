@@ -1,0 +1,132 @@
+body {
+	background-color: #eeeeee;
+	font-family: 'Open Sans', 'Ariel', sans-serif;
+	color: #333333;
+	line-height: 1.6;
+	text-align: center;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: 'Fanwood Text', serif;
+	font-size: 2em;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: 'Fanwood Text', serif;
+	font-size: 1.17em;
+	margin-top: -3px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+header {
+	margin: 2.5em 0;
+}
+
+h3 {
+	font-family: 'Open Sans', 'Ariel', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	font-style: bold;
+	text-decoration: underline;
+}
+
+#wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+nav {
+	padding-bottom: .80em;
+	width: 80%;
+	/* padding-left: 6.1em; */
+	margin: auto;
+}
+
+nav a {
+	color: #333333;
+	font-size: .72em;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	padding: .77em 2.1em;
+}
+
+
+.column p {
+	font-size: .66em;
+	font-weight: bold;
+	text-align: justify;
+}
+
+#columncontainer {
+	width: 67%;
+	/*padding-left: 9.7em;  /* (1080-728)/2 */
+	margin: auto;
+	margin-top: .55em;
+}
+
+#column1 {
+	width: 28%;
+	float: left;
+	padding: 0 1em 0 1em;
+}
+
+#column2 {
+	width: 28%;
+	float: left;
+	padding: 0 1em 0 1em;
+}
+
+#column3 {
+	width: 28%;
+	float: left;
+	padding: 0 0 0 1em;
+}
+
+footer {
+	clear: both;
+	padding-top: 2em;
+	font-size: .66em;
+}
+
+@media only screen and (max-width: 1000px) {
+	body {
+		font-size: 16px;
+	}
+
+	#column1, #column2, #column3 {
+		float: none;
+		width: auto;
+	}
+
+	h1, h2 {
+		text-align: center;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	header {
+		margin: 1em 0;
+	}
+
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 15px;
+	}
+	/*#wrapper {
+		width: 95%;*/
+	}
+}
